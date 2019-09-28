@@ -1,0 +1,5 @@
+BASIS = cc-pvdz
+POINTGROUP = c1
+METHOD = z
+MOLECULE = /home/andrew/p2rdm/xyz/coB.xyz
+PUNCH = punch.txt

@@ -1,0 +1,16 @@
+#PBS -N co
+#PBS -o co.out
+#PBS -e co.err
+#PBS -l nodes=1:ppn=1
+
+module load gcc/6.1.0
+module load armadillo/4.300.0
+
+SCR_PATH="/state/partitioco/scr/andrew"
+
+if [ ! -e $SCR_PATH ]; then
+mkdir -p $SCR_PATH
+fi
+
+cd $PBS_O_WORKDIR
+time ./main.exe Input_co &> co.log
