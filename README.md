@@ -1,6 +1,7 @@
 # P2RDM
 
 Parametric 2-RDM Method
+
 Copyright (c) A. S. Valentine and D. A. Mazziotti 2019
 
 The parametric 2-RDM method computes the ground-state energy of an atom or molecule as a functional of a parameterized two-electron reduced density matrix (2-RDM).  The default parameterization was derived by D. A. Mazziotti in Ref. [1].  Additional information and applications are available in Refs. [2-9].
